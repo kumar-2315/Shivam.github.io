@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shivam Kumar - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">Shivam Kumar</a>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#experience" class="nav-link">Experience</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">Hi, I'm <span class="highlight">Shivam Kumar</span></h1>
+                    <p class="hero-subtitle">PhD in Computer Science | Teaching Assistant @ Syracuse University</p>
+                    <p class="hero-description">
+                        Passionate about System Security and Software Testing, with a focus on Fuzzing techniques. 
+                        Currently pursuing PhD in Computer Science with expertise in ServiceNow, GRC, and custom application development.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#experience" class="btn btn-secondary">View My Experience</a>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/shivam-kumar-a27411193/" class="social-link" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/kumar-2315" class="social-link" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="mailto:skumar47@syr.edu" class="social-link">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <a href="tel:+6803028292" class="social-link">
+                            <i class="fas fa-phone"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="profile-image">
+                        <img src="profile-photo.jpg" alt="Shivam Kumar" onerror="this.src='https://via.placeholder.com/300x300/667eea/ffffff?text=SK'">
+                        <div class="profile-overlay">
+                            <div class="profile-status">
+                                <span class="status-indicator"></span>
+                                <span class="status-text">Available for opportunities</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I'm a PhD candidate in Computer Science at Syracuse University, currently working as a Teaching Assistant 
+                        for CSE.486 Design Operating Systems. My research focuses on System Security with a specialization in 
+                        Fuzzing techniques for software vulnerability discovery and security testing.
+                    </p>
+                    <p>
+                        With over 3 years of industry experience at Wipro, I've specialized in ServiceNow development, 
+                        GRC solutions, and API integrations. I hold certifications in ServiceNow System Administration 
+                        and OneTrust TPRM, demonstrating my expertise in enterprise solutions and third-party risk management.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Work Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Teaching Assistant</h3>
+                        <h4>Syracuse University</h4>
+                        <span class="timeline-date">Aug 2025 - Present</span>
+                        <p>
+                           Conducting lab sessions and grading assignments</li>
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Research Assistant</h3>
+                        <h4>Syracuse University</h4>
+                        <span class="timeline-date">Sep 2024 - May 2025</span>
+                        <p>
+                            Focused on High Performance Computing (HPC) research using C Programming, MPI, and OpenMP.
+                            Contributed to research projects in parallel computing and system optimization.
+                        </p>
+                        
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Analyst</h3>
+                        <h4>Wipro</h4>
+                        <span class="timeline-date">Jun 2022 - Jul 2024</span>
+                        <p>
+                            Advanced to Analyst role, leading ServiceNow implementations and API integrations.
+                            Specialized in GRC solutions and custom application development.
+                        </p>
+                        <ul>
+                            <li>Led ServiceNow GRC implementations for enterprise clients</li>
+                            <li>Designed and developed custom applications and workflows</li>
+                            <li>Managed API integrations and third-party system connections</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Project Engineer</h3>
+                        <h4>Wipro</h4>
+                        <span class="timeline-date">Jun 2021 - Jun 2022</span>
+                        <p>
+                            Started full-time career developing ServiceNow applications and learning enterprise solutions.
+                            Worked with Python, JavaScript and gained expertise in ServiceNow platform.
+                        </p>
+                        <ul>
+                            <li>Developed ServiceNow applications using JavaScript and Python</li>
+                            <li>Implemented workflow automation and business process optimization</li>
+                            <li>Collaborated with cross-functional teams for solution delivery</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Intern</h3>
+                        <h4>HighRadius</h4>
+                        <span class="timeline-date">Apr 2020 - Jun 2020</span>
+                        <p>
+                            Completed remote internship during the pandemic, gaining exposure to enterprise software development
+                            and business processes.
+                        </p>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Shivam Kumar. All rights reserved.</p>
+                <div class="footer-social">
+                    <a href="https://www.linkedin.com/in/shivam-kumar-a27411193/" class="social-link" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/kumar-2315" class="social-link" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="mailto:skumar47@syr.edu" class="social-link">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Visitor Tracking System
+        function trackVisitor() {
+            const visitorData = {
+                timestamp: new Date().toISOString(),
+                userAgent: navigator.userAgent,
+                language: navigator.language,
+                screen: {
+                    width: screen.width,
+                    height: screen.height,
+                    colorDepth: screen.colorDepth
+                },
+                timezone: Intl.DateTimeFormat().resolvedOptions().timeZone,
+                referrer: document.referrer || 'Direct',
+                page: window.location.href,
+                sessionId: generateSessionId()
+            };
+
+            // Get IP and location info (using a free service)
+            fetch('https://ipapi.co/json/')
+                .then(response => response.json())
+                .then(data => {
+                    visitorData.ip = data.ip;
+                    visitorData.location = {
+                        city: data.city,
+                        region: data.region,
+                        country: data.country_name,
+                        latitude: data.latitude,
+                        longitude: data.longitude
+                    };
+                    
+                    // Send visitor data to your email (using EmailJS or similar service)
+                    sendVisitorNotification(visitorData);
+                })
+                .catch(error => {
+                    console.log('Location data not available');
+                    sendVisitorNotification(visitorData);
+                });
+        }
+
+        function generateSessionId() {
+            return 'session_' + Date.now() + '_' + Math.random().toString(36).substr(2, 9);
+        }
+
+        function sendVisitorNotification(data) {
+            // Store in localStorage for your review
+            let visitors = JSON.parse(localStorage.getItem('websiteVisitors') || '[]');
+            visitors.push(data);
+            // Keep only last 100 visitors to avoid storage issues
+            if (visitors.length > 100) {
+                visitors = visitors.slice(-100);
+            }
+            localStorage.setItem('websiteVisitors', JSON.stringify(visitors));
+
+            // Option 1: Console log for now (you can see this in browser developer tools)
+            console.log('New visitor tracked:', data);
+
+            // Option 2: Send to your email using EmailJS (uncomment and configure)
+            // You'll need to sign up for EmailJS and replace with your details
+            /*
+            emailjs.send('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', {
+                to_email: 'skumar47@syr.edu',
+                subject: 'New Website Visitor',
+                message: `
+                    New visitor to your portfolio:
+                    Time: ${data.timestamp}
+                    Location: ${data.location?.city}, ${data.location?.country}
+                    IP: ${data.ip}
+                    Browser: ${data.userAgent}
+                    Referrer: ${data.referrer}
+                `
+            });
+            */
+        }
+
+        // Add visitor counter to the page
+        function updateVisitorCounter() {
+            const visitors = JSON.parse(localStorage.getItem('websiteVisitors') || '[]');
+            const today = new Date().toDateString();
+            const todayVisitors = visitors.filter(v => new Date(v.timestamp).toDateString() === today);
+            
+            // You can display this counter somewhere if desired
+            console.log(`Total visitors: ${visitors.length}, Today: ${todayVisitors.length}`);
+        }
+
+        // Mobile menu toggle
+        const hamburger = document.getElementById('hamburger');
+        const navMenu = document.getElementById('nav-menu');
+
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            navMenu.classList.toggle('active');
+        });
+
+        // Close menu when clicking on a link
+        document.querySelectorAll('.nav-link').forEach(link => {
+            link.addEventListener('click', () => {
+                hamburger.classList.remove('active');
+                navMenu.classList.remove('active');
+            });
+        });
+
+        // Smooth scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Active nav link on scroll
+        window.addEventListener('scroll', () => {
+            let current = '';
+            const sections = document.querySelectorAll('section');
+            
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                if (scrollY >= (sectionTop - 200)) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            document.querySelectorAll('.nav-link').forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href') === `#${current}`) {
+                    link.classList.add('active');
+                }
+            });
+        });
+
+        // Animation on scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animate-in');
+                }
+            });
+        }, observerOptions);
+
+        // Observe sections for animation
+        document.querySelectorAll('section').forEach(section => {
+            observer.observe(section);
+        });
+
+        // Initialize visitor tracking when page loads
+        document.addEventListener('DOMContentLoaded', () => {
+            trackVisitor();
+            updateVisitorCounter();
+        });
+    </script>
+</body>
+</html>
